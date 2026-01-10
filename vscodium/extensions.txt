@@ -1,0 +1,19 @@
+# Terraform
+hashicorp.terraform
+
+# Markdown
+yzhang.markdown-all-in-one
+
+# Git / Repo hygiene
+eamodio.gitlens
+
+# YAML
+redhat.vscode-yaml
+
+# Diagrams
+hediet.vscode-drawio
+
+# High‑impact productivity additions
+usernamehw.errorlens
+timonwong.shellcheck
+streetsidesoftware.code-spell-checker

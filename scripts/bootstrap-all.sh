@@ -11,5 +11,6 @@ bash "$SCRIPT_DIR/install-terraform.sh"
 bash "$SCRIPT_DIR/install-azure-cli.sh"
 bash "$SCRIPT_DIR/setup-git.sh"
 bash "$SCRIPT_DIR/vscodium-extensions.sh"
+bash "$SCRIPT_DIR/install-brave.sh"
 
 echo "Bootstrap complete. Your machine is ready."

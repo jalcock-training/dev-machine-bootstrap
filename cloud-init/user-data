@@ -15,10 +15,18 @@ package_update: true
 package_upgrade: true
 packages:
   - git
+  - curl
+  - wget
+  - unzip
+  - tar
+  - jq
+  - python3
+  - python3-pip
+  - NetworkManager
+  - @workstation
 
 runcmd:
-  - git clone https://github.com/YOURUSERNAME/YOURREPO.git /home/james/bootstrap
+  - git clone https://github.com/jalcock-training/dev-machine-bootstrap.git /home/james/bootstrap
   - cd /home/james/bootstrap/scripts
   - chmod +x bootstrap-all.sh install-brave.sh
   - ./bootstrap-all.sh
-  - ./install-brave.sh
